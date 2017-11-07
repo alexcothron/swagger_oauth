@@ -1,0 +1,10 @@
+C:\swagger_oauth\bin\Debug\netcoreapp2.0\swagger_oauth.deps.json
+C:\swagger_oauth\bin\Debug\netcoreapp2.0\swagger_oauth.runtimeconfig.json
+C:\swagger_oauth\bin\Debug\netcoreapp2.0\swagger_oauth.runtimeconfig.dev.json
+C:\swagger_oauth\bin\Debug\netcoreapp2.0\swagger_oauth.dll
+C:\swagger_oauth\bin\Debug\netcoreapp2.0\swagger_oauth.pdb
+C:\swagger_oauth\obj\Debug\netcoreapp2.0\swagger_oauth.csproj.CoreCompileInputs.cache
+C:\swagger_oauth\obj\Debug\netcoreapp2.0\swagger_oauth.AssemblyInfoInputs.cache
+C:\swagger_oauth\obj\Debug\netcoreapp2.0\swagger_oauth.AssemblyInfo.cs
+C:\swagger_oauth\obj\Debug\netcoreapp2.0\swagger_oauth.dll
+C:\swagger_oauth\obj\Debug\netcoreapp2.0\swagger_oauth.pdb
