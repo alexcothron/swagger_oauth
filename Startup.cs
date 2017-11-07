@@ -21,17 +21,19 @@ namespace swagger_oauth
         {
             services.AddMvc();
 
+            // Register Identity Server
             var builder = services.AddIdentityServer()
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApis())
                 .AddInMemoryClients(Config.GetClients())
                 .AddTestUsers(TestUsers.Users);
-
-
             builder.AddDeveloperSigningCredential();
+            
+            // register service for swagger middleware
             services.AddSwaggerGen(options => 
             {
                 options.SwaggerDoc("v1", new Info { Title = "IdentityServer4", Version = "v1" });
+                // Is there a way to explicitly add methods here for the /connect/token enpoint in identityserver.
             });
         }
 
